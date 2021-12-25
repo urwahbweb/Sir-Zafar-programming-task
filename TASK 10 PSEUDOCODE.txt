@@ -1,0 +1,9 @@
+ DECLARE userInput: String
+        userInput ---> INPUT
+        If Right(userInput, 3) = "ing" Then
+            OUTPUT userInput + "ly")
+        ElseIf Len(userInput) > 2 Then
+            OUTPUT userInput + "ing")
+        Else
+            OUTPUT userInput)
+        End If
